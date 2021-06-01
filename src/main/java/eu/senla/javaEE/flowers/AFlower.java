@@ -1,0 +1,30 @@
+package main.java.eu.senla.javaEE.flowers;
+
+public abstract class AFlower {
+    private Integer price;
+    private String color;
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Flowers{" +
+                "price=" + price +
+                ", color='" + color + '\'' +
+                '}';
+    }
+}

@@ -75,19 +75,7 @@ public class Hotel {
 
 
 
-//
-//
-//
-///*
-//        RoomService roomService = new RoomServiceImpl();
-//        roomService.add(new Room(105));
-//        // селим клиента
-//        roomService.findByNumber(105)
-//                .setGuest(guest);
-//        roomService.findByNumber(105)
-//                .setGuest(null);*/
-//
-//
+
 
 
 
